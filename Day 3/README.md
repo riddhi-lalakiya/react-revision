@@ -13,7 +13,7 @@
 - Output Dynamic Data
 - Pass Data via props
 - Added normal JavaScript logic
-- Split Compnents into multiple Components
+- Split Components into multiple Components
   
 Source Code - [Click Here](./code/assignment-1-solution/)
 
