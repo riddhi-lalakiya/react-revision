@@ -221,4 +221,33 @@ printName({name: 'Riddhi Lalakiya', age: 27}); // prints 'Riddhi Lalakiya'
 
 We get the same result as above but we save some code. By destructuring, we simply pull out the `name` property and store it in a variable/ argument named `name` which we then can use in the function body.
 
+### Coding Exercise 2: Array Methods
+
+Your task is to add the missing logic to a `transformToObjects()` function that should transform a list of numbers into a list of JavaScript objects.
+
+In the newly returned array, every object must have a `val` key and the input array's number as a value.
+
+For example, for the provided input `[1, 2, 3]` the `transformToObjects([1, 2, 3])` function should return `[{val: 1}, {val: 2}, {val: 3}]`.
+
+#### Example Code:
+```
+function transformToObjects(numberArray) {
+    // Todo: Add your logic
+    // should return an array of objects
+}
+```
+
+#### Example Practice:
+```
+function transformToObjects(numberArray) {
+    // Todo: Add your logic
+    // should return an array of objects
+    const editedNumberArray = numberArray.map(
+        (number) => ({val: number})
+    )
+    return editedNumberArray;
+}
+
+```
+
 You also find [section slides](./slides/slides.pdf).

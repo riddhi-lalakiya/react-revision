@@ -51,14 +51,21 @@ When importing **named exports**, you can also import all named exports at once 
 
 `upToYou` is - well - up to you and simply bundles all exported variables/functions in one JavaScript object. For example, if you `export const someData = ...` (`/path/to/file.js`) you can access it on `upToYou` like this: `upToYou.someData`.
 
-## Exercise: Working with Functions
+### Coding Exercise 1: Working with Functions
 Your task is to write a new function that should be named combine and have the following characteristics:
 
 * Accept three input values
 * Calculate a new value based on the three input values: a * b / c (if a, b & c are the input values)
 * Return the calculated result
 
-### Example:
+#### Example Code:
+```
+function combine() {
+    return a * b / c;
+}
+```
+
+#### Example Practice:
 ```
 function combine(a, b, c) {
     return a * b / c;

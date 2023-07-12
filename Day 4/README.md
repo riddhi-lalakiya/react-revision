@@ -8,7 +8,7 @@ children is a special prop, automatically passed to every component, that can be
 
 The concept of children props ( written as {props.children}) is far less twisted than it sounds when placed within the context of React.js code. The { props.children } property allows you to create a generic template component that can be modified by the parent when it is invoked. This means that a parent component can pass whatever is needed in the child component, even generated layout features that can then be rendered by the child.
 
-#### Exercise: Component Composition
+### Coding Exercise 6: Component Composition
 
 You are working on a UI prototype for a "Todos" application. At the moment, the prototype displays some basic todos for learning React and a short info message.
 
@@ -20,8 +20,8 @@ The final UI should look like the initial UI - i.e., no styling changes are requ
 
 Create the `<Card />` component in the already existing `Card.js` file and use a `<div>` as a main element in that component.
 
-## Example Code
-#### App.js
+#### Example Code:
+##### App.js
 
 ```
 import './styles.css';
@@ -53,7 +53,7 @@ export default function App() {
 }
 ```
 
-#### styles.css
+##### styles.css
 
 ```
 body {
@@ -94,15 +94,15 @@ li {
 }
 ```
 
-#### Card.js
+##### Card.js
 
 ```
 empty file
 ```
 
-## Excercise
+#### Excercise Practice:
 
-#### App.js
+##### App.js
 
 ```
 import './styles.css';
@@ -135,7 +135,7 @@ export default function App() {
 }
 ```
 
-#### Card.js
+##### Card.js
 
 ```
 import React from 'react'
