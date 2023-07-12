@@ -100,7 +100,7 @@ li {
 empty file
 ```
 
-#### Excercise Practice:
+#### Exercise Practice:
 
 ##### App.js
 

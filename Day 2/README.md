@@ -237,7 +237,7 @@ function transformToObjects(numberArray) {
 }
 ```
 
-#### Example Practice:
+#### Exercise Practice:
 ```
 function transformToObjects(numberArray) {
     // Todo: Add your logic

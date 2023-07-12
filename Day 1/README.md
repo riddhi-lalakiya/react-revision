@@ -65,7 +65,7 @@ function combine() {
 }
 ```
 
-#### Example Practice:
+#### Exercise Practice:
 ```
 function combine(a, b, c) {
     return a * b / c;

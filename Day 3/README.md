@@ -6,7 +6,7 @@ This is a quick exercise to get started with React and JSX code: Your task is to
 
 Important: The custom JSX code must be added inside the existing `<div>` element.
 
-#### Excercise Code:
+#### Example Code:
 ##### App.js
 ```
 import React from 'react';
@@ -21,7 +21,7 @@ export default function App() {
 }
 ```
 
-#### Excercise Practice:
+#### Exercise Practice:
 ##### App.js
 ```
 import React from 'react';
@@ -47,7 +47,7 @@ Use the empty `ExerciseComponent.js` file for your new component code and output
 
 The final app should display this basic output:
 
-![basic output](./img/coding_excercise_4_building_first_component.png)
+![basic output](./img/coding_exercise_4_building_first_component.png)
 
 *Important: If the built-in code editor shows an error related to your JSX code, you may ignore that - it's most likely a Udemy bug!*
 
@@ -68,7 +68,7 @@ function SomeComponent() {
 export default SomeComponent;
 ```
 
-#### Excercise Code:
+#### Example Code:
 ##### App.js
 ```
 import React from 'react';
@@ -79,14 +79,14 @@ export default function App() {
 }
 ```
 
-##### ExcerciseComponent.js
+##### ExerciseComponent.js
 ```
 import React from 'react';
 // Todo: Add your component code
 // Important: Use export default function MyCmp() { ... }, don't define "export default" on a separate line!
 ```
 
-#### Excercise Practice:
+#### Exercise Practice:
 ##### App.js
 ```
 import React from 'react';
@@ -98,7 +98,7 @@ export default function App() {
 }
 ```
 
-##### ExcerciseComponent.js
+##### ExerciseComponent.js
 ```
 import React from 'react';
 // Todo: Add your component code
@@ -115,7 +115,7 @@ export default ExerciseComponent;
 You're working on the UI prototype for an online shop and your task is to output **two product items** (via the `<Product />` component you find in the `Product.js` file) below the main page title ("`My Demo Shop`") in the App component.
 
 The final UI should look like this:
-![passing data via props output](./img/coding_excercise_5_passing_data_via_props.png)
+![passing data via props output](./img/coding_exercise_5_passing_data_via_props.png)
 
 The **two product items** should use the **same component** (`<Product />`) but output **different data** (`title`, `price` & `description`). Data should be passed to the components (and output there) via `props`.
 
@@ -131,7 +131,7 @@ The second product item is expected to display the following information:
 - Price: `20`
 - Description: `Second product`
 
-#### Excercise Code:
+#### Example Code:
 ##### App.js
 ```
 import React from 'react';
@@ -191,7 +191,7 @@ body {
 }
 ```
 
-#### Excercise Practice:
+#### Exercise Practice:
 ##### App.js
 ```
 import React from 'react';
